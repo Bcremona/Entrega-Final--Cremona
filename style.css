@@ -1,0 +1,47 @@
+* {
+    padding: 5px;
+}
+
+body {
+    background-image: url('fotos/background.jpg');
+    background-size: cover;
+}
+
+.formCompra {
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 255, 255, 0.8);
+    margin-bottom: 80px;
+}
+
+.card {
+    display: inline-block;
+    margin: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 255, 255, 0.8);
+    padding: 3px;
+}
+
+#list {
+    text-align: center;
+}
+
+.navbar {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 255, 255, 0.8);
+}
+
+.form-control {
+    max-width: 50vw;
+}
+
+.form-label {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8); 
+    font-weight: bold;
+}
+
+.form-floating {
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 255, 255, 0.8);
+}
