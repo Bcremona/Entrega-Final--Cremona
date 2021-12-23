@@ -123,13 +123,13 @@ const calculoTotal = (precio, cantidadDeCuotas) => {
 
 // Toma los datos ingresados y llama a la Función
 
-$('#botonEnviarInfoCompra').click(function() {
-    
+$('#botonEnviarInfoCompra').click(function(event) {
+    event.preventDefault();
     metodoDePago = formPago.value;
     precioBase = parseInt(formPrecio.value);
     cuotas = parseInt(formCuotas.value);
     calculoTotal(precioBase, cuotas);
-    localStorage.setItem('RegistroDeCompra', precioFinal);
+   // localStorage.setItem('RegistroDeCompra', precioFinal);
 
 });
 
